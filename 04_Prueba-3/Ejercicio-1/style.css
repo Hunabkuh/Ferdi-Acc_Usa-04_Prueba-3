@@ -1,0 +1,152 @@
+body {
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.oculto {
+    position: relative;
+    left: -1000px;
+}
+
+#cont-navbar {
+    display: flex;
+    height: 200px;
+    background-color: #51ABB2;
+}
+
+#elementos-nav {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    overflow: hidden;
+    background-color: #51ABB2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Cinzel';
+    font-size: x-large
+}
+
+li a:hover {
+    background-color: #38b6ff;
+    color: black;
+}
+
+#logo {
+    height: 200px;
+}
+
+#cont-presentacion {
+    font-family: 'Courgette';
+    font-size: 20px;
+    padding: 50px;
+}
+
+#foto-tienda {
+    width: 60%;
+    height: auto;
+    background-size: contain;
+
+}
+
+#cont-section {
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box-section {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #51ABB2;
+    font-family: 'Courgette';
+    font-size: xx-large;
+}
+
+#foto-cat1 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/artecinefoto.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto-cat2 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/joyeria.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto-cat3 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/Coleccionismo.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto-cat4 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/juguetes.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto-cat5 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/muebles.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto-cat6 {
+    background-image: url(/Accesibilidad_y_usabilidad/04_Prueba-3/Ejercicio-1/Img/musica.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    border-top: #38b6ff;
+    border-width: 3px;
+    text-align: center;
+}
+
+#cont-div-footer {
+    display: flex;
+    background-color: #51ABB2;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-footer {
+    margin: 30px;
+    gap: 30px;
+    font-size: larger;
+}
